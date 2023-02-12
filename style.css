@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+
+}
+      body {
+  font-family: Arial, sans-serif;
+
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.section {
+  background-color: rgb(165, 139, 139);
+  border: 5px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+  float: left;
+  padding: 10px;
+  position: relative;
+}
+
+.section-1 {
+  width: 33.33%;
+ 
+}
+
+.section-2 {
+  width: 33.33%;
+
+}
+
+.section-3 {
+  width: 33.33%;
+
+
+}
+.section-title.C {
+  background-color: rgb(238, 219, 12);
+ 
+}
+.section-title.B {
+  background-color: rgb(118, 70, 239);
+}
+.section-title.S {
+  background-color: rgb(85, 244, 233);
+}
+
+.section-title {
+  border: 1px solid black; 
+  color: rgb(20, 16, 16);
+  font-size: 1.2em;
+  text-align: center;
+  position:relative;
+  top: -10px;
+  right: -10px;
+  width: 100px;
+  height: 28px;
+  float: right;
+  margin-left: 450px; 
+}
+
+@media (max-width: 991px) {
+  .section {
+    float: left;
+  }
+  .section-1 {
+  width: 50%;
+}
+
+.section-2 {
+  width: 50%;
+}
+
+.section-3 {
+  margin-top: 10px;
+  width: 100%;
+}
+}
+@media (max-width: 767px) {
+  .section {
+    float: left;
+  }
+  .section-1 {
+    margin-top: 10px;
+  width: 100%;
+}
+
+.section-2 {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.section-3 {
+  margin-top: 10px;
+  width: 100%;
+}
+}
